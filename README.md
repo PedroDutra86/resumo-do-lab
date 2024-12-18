@@ -16,4 +16,10 @@ Aprendi até o momento sobre:
 CapEx são gastos com investimentos com longo prazo, geralmente para comprar, melhorar um equipamento, os benefícios duram mais, pois uma vez comprado dura por anos, porém o investimento inicial é maior
 OpEx são os gastos com a operação da empresa, como o custo para manter um servidor em nuvem, contas de energia, salários, os investimentos iniciais são baixos mas recorrentes.
 
+- SLA, ou tempo de disponibilidade, é o quanto o aquele produto vai ficar fora do ar
+Os SLA's são: 99%, 99,9%, 99,95%, 99,99% e 99,999%
+
+- Benefícios da nuvem
+Existem diversos benefícios da nuvem que foram citados, alguns deles são: Alta Disponibilidade, Elasticidade, Gerenciamento, Escalabilidade, entre outros.
+
  
