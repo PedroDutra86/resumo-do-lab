@@ -22,4 +22,9 @@ Os SLA's são: 99%, 99,9%, 99,95%, 99,99% e 99,999%
 - Benefícios da nuvem
 Existem diversos benefícios da nuvem que foram citados, alguns deles são: Alta Disponibilidade, Elasticidade, Gerenciamento, Escalabilidade, entre outros.
 
+- IaaS, PaaS, SaaS
+Modelo Iaas é a Infraestrutura como serviço, é o modelo que permite maior controle sobre personalizações, o mais caro e mais trabalhoso, exemplos são: banco de dados, firewall, servidores.
+Modelos PaaS é Plataforma como serviço, esse modelo é mediano sobre valores, personalizações, além de abranger os tópicos da infraestrutura, o modelo plataforma também abrange Sistemas Operacionais e ferrametas de gerenciamento
+Modelo SaaS é o menos volátil, se baseia em serviços por assinaturas, são softwares prontos.
+
  
