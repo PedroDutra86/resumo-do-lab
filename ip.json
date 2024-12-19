@@ -1,0 +1,42 @@
+{
+  "apiVersion": "2024-05-01",
+  "id": "/subscriptions/927847c4-28f2-410f-bbcc-b6c2b5c286e7/resourceGroups/AZ-900_Lab_DIO/providers/Microsoft.Network/virtualNetworks/VNET1",
+  "name": "VNET1",
+  "type": "microsoft.network/virtualnetworks",
+  "location": "brazilsouth",
+  "tags": {},
+  "properties": {
+    "provisioningState": "Succeeded",
+    "resourceGuid": "039913fc-41a8-4bd4-8139-f11c8a61f058",
+    "addressSpace": {
+      "addressPrefixes": [
+        "10.0.0.0/16"
+      ]
+    },
+    "encryption": {
+      "enabled": false,
+      "enforcement": "AllowUnencrypted"
+    },
+    "privateEndpointVNetPolicies": "Disabled",
+    "subnets": [
+      {
+        "name": "default",
+        "id": "/subscriptions/927847c4-28f2-410f-bbcc-b6c2b5c286e7/resourceGroups/AZ-900_Lab_DIO/providers/Microsoft.Network/virtualNetworks/VNET1/subnets/default",
+        "etag": "W/\"0cb10a51-f84d-4a43-af3a-4a0c25a9bfb3\"",
+        "properties": {
+          "provisioningState": "Succeeded",
+          "addressPrefixes": [
+            "10.0.0.0/24"
+          ],
+          "delegations": [],
+          "privateEndpointNetworkPolicies": "Disabled",
+          "privateLinkServiceNetworkPolicies": "Enabled"
+        },
+        "type": "Microsoft.Network/virtualNetworks/subnets"
+      }
+    ],
+    "virtualNetworkPeerings": [],
+    "enableDdosProtection": false
+  },
+  "etag": "W/\"0cb10a51-f84d-4a43-af3a-4a0c25a9bfb3\""
+}

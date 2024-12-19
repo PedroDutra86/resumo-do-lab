@@ -27,4 +27,8 @@ Modelo Iaas é a Infraestrutura como serviço, é o modelo que permite maior con
 Modelos PaaS é Plataforma como serviço, esse modelo é mediano sobre valores, personalizações, além de abranger os tópicos da infraestrutura, o modelo plataforma também abrange Sistemas Operacionais e ferrametas de gerenciamento
 Modelo SaaS é o menos volátil, se baseia em serviços por assinaturas, são softwares prontos.
 
- 
+- Zonas de Região
+Aprendi que uma região é composto de 3 ou mais datacenters, que existem as zonas pares de desastre recovery, que no Brasil temos apenas um datacenter localizado em São Paulo e quem tem como desaster recovery a zona dos Estados Unidos, as zonas de desaster recovery podem ficar no mínimo a 300 milhas de distancia uma da outra.
+
+- Grupo de recursos
+No Lab foi criado um grupo de recursos onde nele iniciamos uma rede virtual, o arquivo Json encontra-se upado em "ip.json"
