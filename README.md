@@ -32,3 +32,11 @@ Aprendi que uma região é composto de 3 ou mais datacenters, que existem as zon
 
 - Grupo de recursos
 No Lab foi criado um grupo de recursos onde nele iniciamos uma rede virtual, o arquivo Json encontra-se upado em "ip.json"
+
+- Computação e rede
+Foi passado conceitos de criação de VM's, conjuntos que disponibilidade e domínio de falha que são basicamente a quantidade de VM's que serão distribuídas nos racks de um datacenter, quanto mais máquinas maior o SLA,
+Conceitos da area de trabalho virtual do Azure, que são idênticas as nossas máquinas convencionais porém armazenadas em nuvem, existem diversos benefícios como a escalabilidade (onde você pode aumentar os recursos daquela máquina conforme necessário e sem requerer um grande investimento inicial), outro benefício é que com apenas 1 VM em uma area de trabalho você pode fazer um pool de computadores e assim ter várias pessoas utilizando a mesma VM sem que uma saiba da outra (isso ajuda a controlar gastos), a flexibilidade de acesso, visto que é uma máquina virtual, você consegue acessa-la de qualquer computador (lógico, tendo a sua autenticação)
+
+
+- Azure functions
+São pequenos trechos de códigos que são reproduzidos em resposta a eventos ocorridos na aplicação.
