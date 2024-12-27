@@ -40,3 +40,26 @@ Conceitos da area de trabalho virtual do Azure, que são idênticas as nossas m�
 
 - Azure functions
 São pequenos trechos de códigos que são reproduzidos em resposta a eventos ocorridos na aplicação.
+
+- Migrations
+A Microsoft oferece diversas formas de migrações para nuvem, dentre elas existem a AzCopy e Gerenciador de Armazenamento do Azure (que são utilizados para uma quantidade de arquivos menos cargosa, essas duas formas são basicamente a mesma coisa, porém a AzCopy é efetuada por linha de comando e o Gerenciador de Armazenamento do Azure é através de uma Interface Gráfica, que é mais simpática a iniciantes.
+Temos também 3 opcões de databox para uma quantidade maior de dados, são elas:
+  1. Azure DataBox Disk - Para até 35TB de dados
+  2. Azure DataBox - Para até 80TB de dados
+  3. Azure DataBox Heavy - Para até 800TB de dados
+
+- Camadas de Acesso
+Existem algumas camadas de acesso que podem ser configuradas para obter melhores resultados em nossos trabalhos, são elas:
+  1. Frequente (para arquivos que você acessa com frequência, terá um custo maior para criação e um valor menor para consulta)
+  2. Esporádico (para arquivos que vocÊ acessa com pouca frequência e armazenados até 30 dias)
+  3. Frio (para arquivos que você acessa com pouca frequência e armazenados em até 90 dias)
+  4. Arquivo Morto (para arquivos acessados raramente e armazenados em até 180 dias)
+
+- Redundância
+Existem 4 principais opções de redundância, são elas:
+  1. LRS (faz 3 cópias em um único datacenter)
+  2. ZRS (faz 3 cópias, porém cada uma delas estará em um datacenter)
+  3. GRS (faz 3 cópias no datacenter da região primária e outra cópia na região par)
+  4. GZRS (faz 3 cópias, uma em cada um dos datacenters da região primária e uma outra cópia em um datacenter na região par)
+
+  
