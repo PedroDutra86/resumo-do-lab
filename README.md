@@ -94,3 +94,6 @@ Sincronizam usuários locais (on-premises) com a nuvem.
 
 #### Acesso Condicional  
 Analisa sinais, como IPs diferentes, para verificar se o usuário está autorizado a acessar determinados dados.  
+
+### Gerenciamento de Custos
+Existem diversos fatores que influenciam nos custos, são eles o tipo do serviço, a região, o tempo de atividade desse recurso, para calcular valores existem duas calculadores disponibilizadas pela Microsoft, a TCO para calcular custos de migrações de um ambiente on-premises para a nuvem, a a calculadora de preços para calcular valores de recursos, é importante ressaltar que são apenas estimativas e os valores podem ser um pouco diferentes do mencionado. Além disso foi ensinado sobre tags, que são uma espécie de Marca (inclusive é até assim que é traduzido) para recursos, elas servem para você identificar na sua fatura o que aquele custo está associado
